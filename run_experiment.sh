@@ -14,6 +14,7 @@ do
     # Cria a pasta se não existir
     if [ ! -d "$FOLDER_NAME" ]; then
         mkdir "$FOLDER_NAME"
+        touch "$FOLDER_NAME/data_$TIMESTAMP.txt"
         echo "[$TIMESTAMP] Pasta $FOLDER_NAME criada com sucesso." | tee -a "$LOG_FILE"
     else
         echo "[$TIMESTAMP] Pasta $FOLDER_NAME já existe. Pulando..." | tee -a "$LOG_FILE"
