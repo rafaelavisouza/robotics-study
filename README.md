@@ -30,7 +30,7 @@ Development is structured in the following incremental phases:
 Ensuring the simulation environment can run identically on any machine.
 - [X] Creation of an optimized `Dockerfile` with the ROS 2 base image.
 - [X] Shell scripts for setup automation and log directory creation (`run_experiment.sh`).
-- [ ] Implementation of basic communication nodes (Publisher/Subscriber) for environment validation.
+- [X] Implementation of basic communication nodes (Publisher/Subscriber) for environment validation.
 
 ### 2. Headless Simulation & Benchmarking 📊
 Running robot physics without a graphical interface, maximizing CPU/Memory usage for at-scale testing.
